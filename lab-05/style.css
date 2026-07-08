@@ -1,0 +1,43 @@
+body
+{
+    font-family: Arial;
+    margin: 40px;
+}
+
+fieldset
+{
+    width: 650px;
+}
+
+table
+{
+    border-spacing: 10px;
+}
+
+input
+{
+    width: 180px;
+    height: 25px;
+}
+
+#message
+{
+    color: red;
+}
+
+#cartBtn
+{
+    display: none;
+
+    margin-top: 20px;
+
+    padding: 10px 20px;
+
+    background: green;
+
+    color: white;
+
+    border: none;
+
+    cursor: pointer;
+}

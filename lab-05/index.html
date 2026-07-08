@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>lab 05 Product Cart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <fieldset>
+
+        <legend>Product Cart</legend>
+
+        <table>
+
+        <tr>
+
+            <td>Product Name:</td>
+
+                <td>
+
+                    <input type="text"
+                           id="productName"
+                           value="Macbook Air M5"
+                           readonly>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Product Price:</td>
+
+                <td>
+
+                    <input type="text"
+                           id="price"
+                           value="30000"
+                           readonly>
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>Product Quantity:</td>
+
+                <td>
+
+                    <input
+                        type="number"
+                        id="quantity"
+                        value="0"
+                        min="0">
+
+                </td>
+
+                <td>
+
+                    <span id="message">
+                        Quantity must be greater than 0
+                    </span>
+
+                </td>
+
+             </tr>
+
+             <tr>
+
+                <td>Payable Amount</td>
+
+                <td>
+
+                    <input
+                        type="text"
+                        id="amount"
+                        value="0"
+                        readonly>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+        <br>
+
+        <button id="cartBtn">
+            Add To Cart
+        </button>
+
+    </fieldset>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
