@@ -18,14 +18,14 @@ function calculateAmount()
 
     if(productQuantity > 0)
     {
-        var total = productPrice * productQuantity;
+            var total = productPrice * productQuantity;
 
-        amount.value = total;
+            amount.value = total;
 
-        message.innerHTML = "";
+            message.innerHTML = "";
 
-        cartButton.style.display = "block";
-    }
+            cartButton.style.display = "block";
+        }
     else
     {
         amount.value = 0;

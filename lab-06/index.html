@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AIUB Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>AIUB Student Registration Form</h2>
+
+      <form id="studentForm">
+
+        <label>First Name <span>*</span></label>
+         <input type="text" id="fname">
+
+        <label>Last Name <span>*</span></label>
+         <input type="text" id="lname">
+
+        <label>Student ID <span>*</span></label>
+         <input type="text" id="sid">
+
+        <label>Email <span>*</span></label>
+          <input type="text" id="email">
+
+        <label>Credit Completed <span>*</span></label>
+          <input type="number" id="credit">
+
+        <label>Department <span>*</span></label>
+          <select id="dept">
+             <option value="">Select Department</option>
+              <option>CSE</option>
+               <option>CS</option>
+                <option>Data Science</option>
+                <option>CSSE</option>
+                <option>EEE</option>
+                <option>COE</option>
+                <option>BBA</option>
+                <option>LLB</option>
+                <option>IPE</option>
+                
+        </select>
+
+        <div class="btn">
+             <button type="submit">Submit</button>
+
+        </div>
+
+    </form>
+
+</div>
+
+<div class="list">
+
+    <h2>Registered Students</h2>
+
+    <table id="studentTable">
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Credit</th>
+            <th>Department</th>
+        </tr>
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
